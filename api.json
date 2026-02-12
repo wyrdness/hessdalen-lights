@@ -1,0 +1,362 @@
+{
+  "category": "ATMOSPHERIC_PHENOMENON",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/hessdalen-lights",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "hessdalen-lights",
+    "name": "Hessdalen Lights",
+    "aliases": [
+      {
+        "name": "Hessdalen Phenomenon",
+        "region": "Norway"
+      }
+    ],
+    "category": "ATMOSPHERIC_PHENOMENON",
+    "subcategory": "Unexplained Lights",
+    "tags": [
+      "norway",
+      "plasma",
+      "scientifically-monitored",
+      "unexplained",
+      "ongoing",
+      "nocturnal"
+    ],
+    "status": "active",
+    "description": {
+      "summary": "Unexplained light phenomenon in Hessdalen valley, Norway. The only ghost light with permanent scientific monitoring station. Real phenomenon confirmed but cause still debated.",
+      "full": "The Hessdalen Lights are unexplained light phenomena occurring in the Hessdalen valley of Norway. Peak activity occurred between 1981-1984 with 20+ sightings per week, though the phenomenon continues today at lower frequency. Characterized by bright white or yellow lights, sometimes colored, that hover or move and can last from seconds to hours. Project Hessdalen, established in 1984, maintains the only permanent scientific monitoring station for a ghost light phenomenon, using cameras, radar, spectrum analyzers, and magnetometers. Measurements confirm an actual physical phenomenon, not hallucinations or hoaxes. Leading theories include plasma created by piezoelectric effects, ionized dust/gas, earthquake lights, and combustion of scandium particles found in air samples during light events. The phenomenon remains unexplained but scientifically documented."
+    },
+    "etymology": {
+      "origin": "Named after Hessdalen valley in central Norway where the phenomenon occurs",
+      "meaning": "Lights of Hessdalen valley",
+      "first_use": "1981"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "ATMOSPHERIC_PHENOMENON",
+      "type": "Unexplained Lights",
+      "subtype": "Possible Plasma Phenomenon",
+      "variant": "Scientifically Monitored"
+    },
+    "related_phenomena": [
+      {
+        "id": "marfa-lights",
+        "name": "Marfa Lights",
+        "relationship": "similar",
+        "description": "Texas ghost lights, mostly explained"
+      },
+      {
+        "id": "ball-lightning",
+        "name": "Ball Lightning",
+        "relationship": "similar",
+        "description": "Rare electrical phenomenon"
+      },
+      {
+        "id": "brown-mountain-lights",
+        "name": "Brown Mountain Lights",
+        "relationship": "similar",
+        "description": "North Carolina atmospheric lights"
+      },
+      {
+        "id": "atmospheric-beasts",
+        "name": "Atmospheric Anomalies",
+        "relationship": "related",
+        "description": "Unexplained atmospheric phenomena"
+      }
+    ]
+  },
+
+  "characteristics": {
+    "physical": {
+      "appearance": [
+        {
+          "feature": "Colors",
+          "description": "Bright white or yellow, sometimes red, orange, or other colors",
+          "frequency": "always"
+        },
+        {
+          "feature": "Duration",
+          "description": "Lasts from seconds to hours",
+          "frequency": "variable"
+        },
+        {
+          "feature": "Size",
+          "description": "Varies from small points to large spheres",
+          "frequency": "variable"
+        },
+        {
+          "feature": "Behavior",
+          "description": "Float down valley, hover over mountains, rapid movements, pulsating",
+          "frequency": "common"
+        }
+      ],
+      "morphology": "Spherical lights of various sizes and colors, displaying intelligent-seeming movement patterns"
+    },
+    "behavior": {
+      "activity_period": "nocturnal and diurnal",
+      "conditions": "Various weather conditions, no specific trigger identified",
+      "patterns": [
+        "Float down valley",
+        "Hover over mountains",
+        "Rapid movements",
+        "Pulsating behavior",
+        "Can appear singly or in groups",
+        "Sometimes detected by radar"
+      ]
+    }
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Localized to Hessdalen valley and surrounding area in central Norway",
+      "continents": ["Europe"],
+      "countries": ["Norway"],
+      "regions": ["Hessdalen valley, Sør-Trøndelag"]
+    },
+    "hotspots": [
+      {
+        "name": "Hessdalen Valley",
+        "location": {
+          "description": "Hessdalen valley, central Norway",
+          "country": "Norway",
+          "region": "Sør-Trøndelag",
+          "coordinates": {
+            "latitude": 62.7944,
+            "longitude": 11.1869
+          }
+        },
+        "sighting_count": 10000,
+        "peak_period": "1981-1984",
+        "notes": "Permanent scientific monitoring station established 1984"
+      }
+    ],
+    "temporal": {
+      "first_recorded": {
+        "date": "1981",
+        "circa": false,
+        "source": "Local resident reports"
+      },
+      "peak_activity_periods": [
+        {
+          "period": "1981-1984",
+          "description": "Peak activity with 20+ sightings per week"
+        },
+        {
+          "period": "1984-present",
+          "description": "Ongoing activity at reduced frequency, scientifically monitored"
+        }
+      ],
+      "seasonal_patterns": "Activity reported year-round, no clear seasonal pattern"
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "Phenomenon gained attention in early 1980s when activity dramatically increased",
+      "earliest_accounts": "1981 local resident reports of unusual lights",
+      "folklore_connections": "Modern phenomenon, no significant pre-1981 folklore"
+    },
+    "timeline": [
+      {
+        "date": "1981",
+        "event": "Phenomenon begins",
+        "significance": "Dramatic increase in light sightings in Hessdalen valley",
+        "source": "Local resident reports"
+      },
+      {
+        "date": "1981-1984",
+        "event": "Peak activity period",
+        "significance": "20+ sightings per week, draws scientific attention",
+        "source": "Project Hessdalen records"
+      },
+      {
+        "date": "1984",
+        "event": "Project Hessdalen established",
+        "significance": "First scientific expedition to study phenomenon",
+        "source": "Project Hessdalen"
+      },
+      {
+        "date": "1998",
+        "event": "Permanent monitoring station established",
+        "significance": "Automated equipment installed for continuous monitoring",
+        "source": "Project Hessdalen, Østfold University College"
+      },
+      {
+        "date": "2014",
+        "event": "Particle analysis findings",
+        "significance": "Silicon, iron, and scandium particles found in air samples during light events",
+        "source": "Italian research team"
+      }
+    ],
+    "modern_era": "Only ghost light phenomenon with permanent scientific monitoring. Continues to be studied by researchers worldwide. Real phenomenon confirmed but cause remains debated."
+  },
+
+  "investigations": {
+    "studies": [
+      {
+        "year": "1984-present",
+        "organization": "Project Hessdalen",
+        "methodology": "Cameras, radar, spectrum analyzers, magnetometers, continuous monitoring",
+        "findings": "Actual physical phenomenon confirmed, not hallucinations or hoaxes. Lights detected visually and by instruments",
+        "conclusion": "Real phenomenon, cause unknown but likely natural"
+      },
+      {
+        "year": "2014",
+        "organization": "Italian research team",
+        "methodology": "Air sample analysis during light events",
+        "findings": "Silicon, iron, and scandium particles found in air samples coinciding with light appearances",
+        "conclusion": "Suggests mineral combustion or vaporization may be involved"
+      }
+    ],
+    "monitoring": {
+      "equipment": [
+        "Automated cameras (visible and infrared)",
+        "Radar systems",
+        "Spectrum analyzers",
+        "Magnetometers",
+        "Radio frequency detectors"
+      ],
+      "data": "Continuous monitoring since 1998, extensive database of observations and measurements",
+      "access": "Project Hessdalen publishes research and data"
+    }
+  },
+
+  "evidence": {
+    "photographic": [
+      {
+        "type": "photographs",
+        "description": "Thousands of photographs from automated cameras and researchers",
+        "status": "documented",
+        "analysis": "Confirms visual phenomenon, shows various light behaviors"
+      }
+    ],
+    "video": [
+      {
+        "type": "video recordings",
+        "description": "Extensive video documentation from monitoring station",
+        "status": "documented",
+        "analysis": "Shows lights hovering, moving, pulsating"
+      }
+    ],
+    "scientific": [
+      {
+        "type": "radar detection",
+        "description": "Some lights detected by radar, confirming physical presence",
+        "status": "confirmed",
+        "analysis": "Indicates physical phenomenon, not optical illusion"
+      },
+      {
+        "type": "particle analysis",
+        "description": "Silicon, iron, scandium particles in air during events",
+        "status": "confirmed",
+        "analysis": "Suggests mineral involvement in phenomenon"
+      },
+      {
+        "type": "spectrum analysis",
+        "description": "Light spectrum recorded during events",
+        "status": "documented",
+        "analysis": "Provides data on light composition"
+      }
+    ]
+  },
+
+  "theories": {
+    "scientific": [
+      {
+        "name": "Piezoelectric Plasma",
+        "description": "Stress on underground minerals creates plasma through piezoelectric effects",
+        "proponents": ["Various geologists"],
+        "evidence_cited": ["Geological formations", "Tectonic activity"],
+        "status": "leading_theory"
+      },
+      {
+        "name": "Mineral Combustion",
+        "description": "Combustion of scandium and other minerals creates lights",
+        "proponents": ["Italian research team"],
+        "evidence_cited": ["2014 air sample analysis", "Particle findings"],
+        "status": "leading_theory"
+      },
+      {
+        "name": "Ionized Dust/Gas",
+        "description": "Natural ionization of dust or gas in valley creates luminous effects",
+        "proponents": ["Atmospheric physicists"],
+        "evidence_cited": ["Atmospheric conditions", "Valley geography"],
+        "status": "possible"
+      },
+      {
+        "name": "Earthquake Lights",
+        "description": "Related to seismic activity and tectonic stress",
+        "proponents": ["Seismologists"],
+        "evidence_cited": ["Geological activity in region"],
+        "status": "possible"
+      }
+    ],
+    "paranormal": [
+      {
+        "name": "UFOs",
+        "description": "Extraterrestrial craft",
+        "proponents": ["UFO researchers"],
+        "evidence_cited": ["Unusual movements"],
+        "status": "unsupported"
+      }
+    ]
+  },
+
+  "cultural": {
+    "folklore": {
+      "traditions": ["Modern phenomenon, limited folklore"],
+      "stories": ["Local accounts from 1980s onward"],
+      "beliefs": "Viewed primarily as scientific curiosity"
+    },
+    "popular_culture": {
+      "research": [
+        "Project Hessdalen ongoing scientific study",
+        "International research collaborations",
+        "Academic papers and conferences"
+      ],
+      "media": [
+        "Featured in scientific documentaries",
+        "Subject of academic research",
+        "Tourist attraction for phenomenon enthusiasts"
+      ]
+    }
+  },
+
+  "sources": [
+    {
+      "id": "project-hessdalen",
+      "type": "research_project",
+      "title": "Project Hessdalen",
+      "organization": "Østfold University College",
+      "date": "1984-present",
+      "url": "http://www.hessdalen.org"
+    },
+    {
+      "id": "italian-2014",
+      "type": "study",
+      "title": "Particle Analysis of Hessdalen Lights",
+      "authors": ["Italian research team"],
+      "date": "2014",
+      "description": "Air sample analysis finding silicon, iron, scandium"
+    }
+  ]
+}
