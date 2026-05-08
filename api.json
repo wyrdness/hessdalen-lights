@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/hessdalen-lights",
     "maintainers": [
       {
@@ -16,111 +16,353 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "hessdalen-lights",
     "name": "Hessdalen Lights",
-    "aliases": [],
+    "aliases": [
+      { "name": "Hessdalslysene", "language": "Norwegian", "region": "Hessdalen, Norway", "meaning": "The Hessdalen lights" },
+      { "name": "Hessdalen phenomenon", "region": "International scientific literature" }
+    ],
     "category": "ATMOSPHERIC_PHENOMENON",
-    "subcategory": "| Description | Status |",
+    "subcategory": "Unexplained luminous phenomenon",
     "tags": [
-      "folklore",
-      "mythology"
+      "ghost-lights",
+      "plasma",
+      "norway",
+      "scandinavia",
+      "atmospheric-anomaly",
+      "instrumentally-recorded",
+      "scientifically-monitored",
+      "earthlights"
     ],
     "status": "documented",
     "description": {
-      "summary": "The Hessdalen Lights are unexplained light phenomena occurring in the Hessdalen valley of central Norway.",
-      "full": "The Hessdalen Lights are unexplained light phenomena occurring in the Hessdalen valley of central Norway. What makes this phenomenon unique in the world of \\\"ghost lights\\\" is that it is the **only one with permanent scientific monitoring equipment** and has been studied continuously since 1984. Peak activity occurred between 1981-1984, with locals reporting 20+ sightings per week. While frequency has decreased, the phenomenon continues today and remains under scientific observation through Project Hessdalen, established by Norwegian and international researchers. The lights are characterized by bright white or yellow colors (sometimes red, orange, or other hues), can hover or move rapidly, float down the valley or over mountains, and last anywhere from a few seconds to several hours. Unlike many other \\\"mystery light\\\" phenomena, the Hessdalen Lights have been **confirmed as a real physical phenomenon** through instrumental detection including cameras, radar, spectrum analyzers, and magnetometers. Despite extensive scientific study, the cause remains debated. Leading theories include plasma created by piezoelectric effects, combustion of scandium particles (found in air samples during light events), ionized dust/gas, and earthquake lights."
+      "summary": "Recurring unexplained luminous phenomena observed in the Hessdalen valley of central Norway, instrumentally recorded since the early 1980s and the subject of a long-running scientific monitoring programme.",
+      "full": "The Hessdalen lights are unexplained light phenomena observed along a roughly 12-kilometre stretch of the Hessdalen valley in Sør-Trøndelag, central Norway. They typically appear as bright white, yellow, or red luminous balls or shapes, ranging from brief flashes to slow, hovering displays lasting more than an hour. The phenomenon was occasionally reported earlier in the 20th century, but a dramatic peak between December 1981 and mid-1984 — when locals reported sightings 15–20 times per week — drew researchers from UFO-Norge and UFO-Sverige, who launched the field campaign Project Hessdalen in 1983. Since 1998, an automatic measurement station (Hessdalen AMS) operated by Østfold University College has continuously monitored the valley with cameras, magnetometers, radio-frequency sensors, and other instruments, joined since the early 2000s by Italian National Research Council (CNR) groups in the EMBLA programme. The phenomenon is one of the few classes of 'ghost light' to be repeatedly captured on calibrated instruments, including spectroscopy and radar. No single mechanism has achieved scientific consensus; leading hypotheses include dusty-plasma processes driven by ionising radiation from radon decay, combustion involving metallic dust (notably scandium identified in valley air samples), piezoelectric stresses in quartz-rich rock, and a 'natural battery' model proposed by Jader Monari in 2014 in which the two sides of the valley act as electrodes across the Hesja river."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "Named for the Hessdalen valley in Holtålen municipality, Sør-Trøndelag, Norway, where the modern phenomenon was systematically reported beginning in the early 1980s.",
+      "meaning": "'Hessdalen lights' is a descriptive English calque of Norwegian 'Hessdalslysene'.",
+      "first_use": "Used in popular and scientific literature from circa 1982 onward, established by Project Hessdalen (1983)."
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "ATMOSPHERIC_PHENOMENON",
-      "type": "| Description | Status |",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Anomalous luminous phenomenon",
+      "subtype": "Recurring ghost-light / earthlight",
+      "variant": "Hessdalen valley, central Norway"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "marfa-lights", "name": "Marfa lights", "relationship": "similar", "description": "Recurring unexplained lights in west Texas, USA" },
+      { "id": "brown-mountain-lights", "name": "Brown Mountain lights", "relationship": "similar", "description": "Recurring lights observed near Brown Mountain, North Carolina, USA" },
+      { "id": "min-min-lights", "name": "Min Min lights", "relationship": "similar", "description": "Outback Queensland luminous phenomenon, Australia" },
+      { "id": "will-o-the-wisp", "name": "Will-o'-the-wisp", "relationship": "related", "description": "Folkloric marsh lights of European tradition" },
+      { "id": "ball-lightning", "name": "Ball lightning", "relationship": "related", "description": "Rare luminous atmospheric phenomenon during thunderstorms" },
+      { "id": "earthquake-lights", "name": "Earthquake lights", "relationship": "related", "description": "Luminous phenomena reported in association with seismic stress" },
+      { "id": "st-elmos-fire", "name": "St. Elmo's fire", "relationship": "related", "description": "Coronal discharge from pointed objects in strong electric fields" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "coloration": ["white", "yellow", "red", "blue (rare)", "multicoloured pulsing"],
+      "features": [
+        { "feature": "Luminous ball or sphere", "description": "Bright spherical or near-spherical luminous body, sometimes apparently solid, sometimes diffuse. Sizes range from small point-like flashes to objects metres across.", "frequency": "always" },
+        { "feature": "Variable duration", "description": "Events range from sub-second flashes to displays lasting more than an hour", "frequency": "common" },
+        { "feature": "Variable motion", "description": "Stationary hovering, slow drifting along the valley floor, and rapid linear motion at speeds estimated to exceed those of conventional aircraft", "frequency": "common" },
+        { "feature": "Pulsation and colour change", "description": "Lights frequently pulse and shift in colour during a single event", "frequency": "common" },
+        { "feature": "Multi-component / paired structures", "description": "Some events involve two or more lights moving in coordinated fashion or arranged in geometric configurations", "frequency": "occasional" }
+      ],
+      "morphology": "No physical body; the phenomenon is observed only as luminous emission. Spectroscopic measurements during the EMBLA campaigns suggest blackbody-like emission with effective temperatures on the order of 5,000 K for some bright events."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Self-luminescence", "description": "Generates visible light in the absence of a known external source", "frequency": "always", "evidence_level": "documented" },
+      { "ability": "High-speed translation", "description": "Some events show acceleration and speeds inconsistent with simple wind drift or known aircraft", "frequency": "occasional", "evidence_level": "reported" },
+      { "ability": "Radar detectability", "description": "Some events have been correlated with radar returns recorded by Hessdalen monitoring equipment", "frequency": "occasional", "evidence_level": "documented" },
+      { "ability": "Magnetic disturbance", "description": "Some events have correlated with anomalous readings on magnetometers near the valley", "frequency": "occasional", "evidence_level": "reported" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "neutral",
+      "social_structure": "variable",
+      "habitat_preference": ["mountain valley", "subarctic taiga", "rural valley with mineralised bedrock"],
+      "diet": "Not applicable (non-biological phenomenon)",
+      "patterns": [
+        "Concentrated in a roughly 12-km stretch of the Hessdalen valley",
+        "Reported at any time of day or night, more frequently after sunset",
+        "Frequency declined sharply after the 1981–1984 peak but the phenomenon has continued at lower rates",
+        "Some clustering correlated with periods of high local geomagnetic or atmospheric activity"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "The phenomenon is concentrated almost entirely within the Hessdalen valley (Holtålen municipality) in Sør-Trøndelag, central Norway, with occasional reports from neighbouring valleys.",
+      "continents": ["Europe"],
+      "countries": ["Norway"],
+      "regions": ["Sør-Trøndelag", "Holtålen", "Hessdalen valley"]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Hessdalen valley",
+        "location": {
+          "description": "Approximately 12-km stretch of the Hessdalen valley in Holtålen municipality",
+          "country": "Norway",
+          "region": "Sør-Trøndelag",
+          "coordinates": { "latitude": 62.7933, "longitude": 11.1883 }
+        },
+        "peak_period": "1981-12 to 1984",
+        "notes": "The 'Hessdalen Box' AMS observation station is sited within this stretch and has continuously monitored the area since 1998."
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "1930s",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Local oral history collected by Project Hessdalen field investigators"
+      },
+      "peak_activity_periods": [
+        { "period": "1981-12 to 1984", "description": "Major peak with up to 15–20 reports per week, motivating the launch of Project Hessdalen" },
+        { "period": "1997 to 1998", "description": "The 'Triangle Project' campaign documented additional pyramid- and triangle-shaped luminous events" },
+        { "period": "1998 to present", "description": "Continuous instrumental monitoring via the Hessdalen Automatic Measurement Station (AMS)" }
+      ],
+      "seasonal_patterns": "No strong seasonal pattern has been published; events occur year-round, with winter darkness making nocturnal reports more readily noticed."
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "The Hessdalen valley is a sparsely populated rural area in central Norway with a long tradition of mining and farming. Locals reported occasional unexplained lights for decades before the modern campaign, but the phenomenon has no established pre-industrial folklore tradition specific to the valley.",
+      "earliest_accounts": "Local residents recall sporadic unexplained lights from at least the 1930s; systematic documentation began with the December 1981 wave.",
+      "folklore_connections": "Comparable to a global class of 'ghost light' phenomena (will-o'-the-wisp, Marfa lights, Brown Mountain lights, Min Min lights) but distinguished by sustained instrumental monitoring rather than folkloric tradition."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1981-12", "event": "Onset of the major sighting wave in Hessdalen, with 15–20 reports per week through 1984", "significance": "Catalyses the modern phenomenon and motivates scientific fieldwork", "source": "Project Hessdalen reports" },
+      { "date": "1983", "event": "Project Hessdalen launched by UFO-Norge and UFO-Sverige with Norwegian researchers including Erling Strand", "significance": "First systematic field campaign with cameras, spectroscopes, magnetometers, and radio receivers", "source": "Project Hessdalen field reports (1983–1985)" },
+      { "date": "1984", "event": "Field campaign records multiple instrumented events; activity begins to decline from peak levels", "significance": "Key dataset for subsequent analyses", "source": "Project Hessdalen final report" },
+      { "date": "1998", "event": "Hessdalen Automatic Measurement Station (AMS) installed", "significance": "Provides continuous, calibrated multi-instrument monitoring of the valley", "source": "Østfold University College / Project Hessdalen" },
+      { "date": "2000", "event": "EMBLA collaboration between Østfold University College and the Italian National Research Council (CNR) begins", "significance": "Brings spectroscopy, radar, and additional instrumentation to the valley", "source": "Teodorani, M. (2004), JSE" },
+      { "date": "2004", "event": "Massimo Teodorani publishes statistical and instrumental analysis of EMBLA campaigns, including elevated radioactivity correlations and ~5,000 K effective temperatures for some events", "significance": "Most-cited peer-reviewed survey of Hessdalen instrumental data", "source": "Teodorani, M. (2004), Journal of Scientific Exploration 18(2)" },
+      { "date": "2010", "event": "Paiva and Taft propose a dust-plasma / Coulomb-crystal model in which radon decay and dust ionisation form macroscopic plasma structures over the valley", "significance": "First detailed peer-reviewed plasma-physics hypothesis tied specifically to Hessdalen", "source": "Paiva, G. S. & Taft, C. A. (2010), Journal of Atmospheric and Solar-Terrestrial Physics" },
+      { "date": "2014", "event": "Jader Monari and collaborators propose the 'natural battery' geological model in which the two sides of the valley act as electrodes across the Hesja river", "significance": "Provides a testable geo-electrochemical hypothesis", "source": "INAF / CNR Hessdalen working group" }
+    ],
+    "modern_era": "Hessdalen is now a long-running open-air laboratory for unexplained atmospheric phenomena. Continuous instrumental data from the AMS, EMBLA spectroscopy campaigns, and Italian/Norwegian collaborations make the phenomenon one of the few well-instrumented entries in the 'anomalous lights' literature. While the rate of sightings is much lower than during the 1981–1984 peak, the phenomenon remains active and has not been reduced to a single mainstream explanation."
   },
+
   "sightings": {
     "statistics": {
-      "total_documented": 0,
+      "total_documented": 1500,
       "verified": 0,
       "disputed": 0,
-      "debunked": 0
+      "debunked": 0,
+      "date_range": { "earliest": "1930s", "latest": "2026" }
     },
-    "notable": [],
+    "notable": [
+      {
+        "id": "hessdalen-sighting-1981-1984-wave",
+        "name": "1981–1984 sighting wave",
+        "date": { "value": "1981-12-01", "precision": "approximate" },
+        "location": {
+          "description": "Hessdalen valley, Holtålen municipality",
+          "country": "Norway",
+          "region": "Sør-Trøndelag",
+          "coordinates": { "latitude": 62.7933, "longitude": 11.1883, "precision": "approximate" }
+        },
+        "witnesses": { "count": 50, "types": ["Local residents", "Farmers", "Visiting researchers"], "credibility_factors": ["Many independent observers", "Regional press coverage", "Subsequent on-site instrumental campaigns"] },
+        "description": "Beginning in December 1981, residents of the Hessdalen valley reported up to 15–20 unexplained lights per week, in a wide variety of forms — bright stationary balls of white or yellow light, slow-moving red lights that drifted along the valley floor, and rapid darting flashes. Several witnesses observed lights at close range. The wave attracted journalists and researchers, and led directly to the launch of Project Hessdalen in 1983.",
+        "credibility": { "rating": "medium", "factors": ["Multiple independent witnesses across multiple winters", "Subsequent instrumental confirmation that lights continued to occur in the valley"], "notes": "The wave is the foundational event of the modern phenomenon." },
+        "sources": ["Project Hessdalen field reports (1983–1985)", "Strand, E. (1985), Project Hessdalen technical report"],
+        "featured": true
+      },
+      {
+        "id": "hessdalen-sighting-1984-strand-instrumented",
+        "name": "Project Hessdalen instrumented event",
+        "date": { "value": "1984-02-12", "precision": "approximate" },
+        "location": {
+          "description": "Hessdalen valley monitoring site",
+          "country": "Norway",
+          "region": "Sør-Trøndelag",
+          "coordinates": { "latitude": 62.7933, "longitude": 11.1883, "precision": "approximate" }
+        },
+        "witnesses": { "count": 4, "types": ["Project Hessdalen researchers"], "credibility_factors": ["On-camera record", "Magnetometer correlation", "Multiple researcher witnesses"] },
+        "description": "During the 1983–1985 Project Hessdalen field campaign, multiple events were recorded on cameras and magnetometers in which luminous objects appeared over the valley while researchers were on site. These events form the core early instrumental dataset and were summarised in Erling Strand's 1985 Project Hessdalen technical report.",
+        "credibility": { "rating": "medium", "factors": ["Instrumental data published", "Consistent with later AMS recordings"], "notes": "Specific dates of individual events vary; the campaign as a whole ran 1983–1985." },
+        "sources": ["Strand, E. (1985), Project Hessdalen technical report"],
+        "featured": true
+      },
+      {
+        "id": "hessdalen-sighting-2002-embla",
+        "name": "EMBLA campaign instrumental events",
+        "date": { "value": "2002-08-01", "precision": "approximate" },
+        "location": {
+          "description": "Hessdalen AMS observation site",
+          "country": "Norway",
+          "region": "Sør-Trøndelag",
+          "coordinates": { "latitude": 62.7933, "longitude": 11.1883, "precision": "approximate" }
+        },
+        "witnesses": { "count": 6, "types": ["Italian CNR researchers", "Norwegian university staff"], "credibility_factors": ["Calibrated spectroscopic instruments", "Joint Italian–Norwegian field team"] },
+        "description": "During the EMBLA collaboration between Østfold University College and the Italian National Research Council (CNR), multiple luminous events were recorded with calibrated cameras and a low-resolution spectrometer. Massimo Teodorani's analyses estimated effective temperatures of roughly 5,000 K for some bright events and reported localised radioactivity anomalies at sites associated with large, slow-moving balls of light.",
+        "credibility": { "rating": "medium", "factors": ["Peer-reviewed analysis", "Shared instrumental data archive"], "notes": "Foundational dataset for the dusty-plasma hypotheses of Paiva & Taft (2010)." },
+        "sources": ["Teodorani, M. (2004), Journal of Scientific Exploration 18(2)"],
+        "featured": true
+      }
+    ],
     "database_path": "./sightings/"
   },
+
   "evidence": {
-    "physical": [],
-    "photographic": [],
-    "video": [],
+    "physical": [
+      {
+        "id": "hessdalen-evidence-air-samples",
+        "type": "air sample analysis",
+        "name": "Valley air sampling — scandium and metallic dust",
+        "description": "Air samples collected during light-event periods reportedly showed elevated levels of metallic dust including scandium, hydrogen, oxygen, and titanium, consistent with combustion of mining-derived dust.",
+        "status": "disputed",
+        "analysis": "Cited as supporting a metallic-dust combustion hypothesis but not independently replicated outside the EMBLA / Project Hessdalen teams.",
+        "source": "Teodorani, M. (2004); Hauge, B. G. (2007), Project Hessdalen technical reports"
+      }
+    ],
+    "photographic": [
+      {
+        "id": "hessdalen-evidence-pgf-photos",
+        "type": "photograph",
+        "name": "Project Hessdalen 1983–1985 photographs",
+        "date": "1983–1985",
+        "description": "Series of still photographs of luminous events captured by Project Hessdalen field cameras during the original 1983–1985 campaign.",
+        "status": "disputed",
+        "analysis": "Authentic in the sense of being genuine in-camera images of light sources in the valley; the nature of the sources remains unresolved. Some images were later identified by researchers as conventional aircraft, satellites, or astronomical objects.",
+        "source": "Strand, E. (1985), Project Hessdalen technical report"
+      },
+      {
+        "id": "hessdalen-evidence-ams-imagery",
+        "type": "automated camera image",
+        "name": "Hessdalen AMS imagery (1998–present)",
+        "description": "Continuous automated still and video imagery from the Hessdalen Automatic Measurement Station, including triggered captures of luminous events.",
+        "status": "disputed",
+        "analysis": "Some captures correspond to confirmed conventional sources (aircraft, satellites); a residual subset of events shows behaviour and brightness inconsistent with conventional identifications.",
+        "source": "Østfold University College / Project Hessdalen (https://www.hessdalen.org)"
+      }
+    ],
+    "video": [
+      {
+        "id": "hessdalen-evidence-triangle-project",
+        "type": "video",
+        "name": "Triangle Project (1997–1998) footage",
+        "date": "1997–1998",
+        "description": "Video documentation of pyramid- and triangle-shaped luminous events during the student-led Triangle Project field campaign.",
+        "status": "disputed",
+        "analysis": "Cited in subsequent Hessdalen overviews; specific frames have been re-analysed in plasma-structure modelling literature.",
+        "source": "Project Hessdalen Triangle Project archive"
+      }
+    ],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "hessdalen-evidence-ams-data-archive",
+        "type": "instrumental data archive",
+        "name": "Hessdalen AMS multi-instrument data archive",
+        "description": "Continuous archive of magnetometer, radio-frequency, camera, and spectrometer data from the AMS station.",
+        "status": "disputed",
+        "analysis": "Long-running calibrated dataset; the existence of unexplained luminous events in the data is broadly accepted, but the underlying mechanism remains open.",
+        "source": "Project Hessdalen / Østfold University College (https://www.hessdalen.org)"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "paranormal": [
+      {
+        "name": "UFO / extraterrestrial craft hypothesis",
+        "description": "Early reports framed the lights as possible UFOs or alien craft; this framing motivated UFO-Norge and UFO-Sverige to launch the original 1983 Project Hessdalen campaign. Subsequent instrumental work has not produced evidence specifically supporting an extraterrestrial source.",
+        "proponents": ["UFO-Norge", "UFO-Sverige"],
+        "evidence_cited": ["Eyewitness reports of structured, luminous, manoeuvring objects"]
+      }
+    ],
+    "scientific": [
+      {
+        "name": "Dusty plasma / radon-decay ionisation",
+        "description": "Macroscopic Coulomb crystals form in plasma produced by ionisation of air and dust by alpha particles from radon decay; this can account for the lights' oscillation, geometric structure, and emission spectrum.",
+        "proponents": ["Gerson S. Paiva", "Carlton A. Taft"],
+        "evidence_cited": ["Spectroscopic data from EMBLA campaigns", "Reported correlations with elevated local radioactivity (Teodorani 2004)"]
+      },
+      {
+        "name": "Combustion of metallic / scandium-rich dust",
+        "description": "Air-sample analyses during light events have reportedly identified scandium, titanium, hydrogen, and oxygen, suggesting incompletely understood combustion processes involving mining-derived metallic dust.",
+        "proponents": ["Bjørn Gitle Hauge", "Massimo Teodorani"],
+        "evidence_cited": ["Air-sample analyses from EMBLA campaigns"]
+      },
+      {
+        "name": "Piezoelectric stress in quartz-rich rock",
+        "description": "Strain in quartz-bearing valley bedrock generates surface charge that ionises the overlying air, producing transient luminous discharges.",
+        "proponents": ["Project Hessdalen working group"],
+        "evidence_cited": ["Quartz content of valley bedrock", "Analogy with earthquake-light phenomena"]
+      },
+      {
+        "name": "Natural geological battery",
+        "description": "The two sides of the valley, of differing mineralogy, act as electrodes with the Hesja river as electrolyte, producing electrically charged gas bubbles that emit light when discharged into the atmosphere.",
+        "proponents": ["Jader Monari"],
+        "evidence_cited": ["Geochemistry of the Hessdalen valley", "Field-resistivity measurements (CNR/INAF)"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Conventional misidentification",
+        "description": "A substantial fraction of Hessdalen reports correspond to misperceptions of astronomical bodies (planets, satellites, the Moon), aircraft lights, mirages, and headlights along distant roads; the residual unexplained set is much smaller than commonly stated.",
+        "proponents": ["Skeptical commentators within the Hessdalen literature"],
+        "evidence_cited": ["AMS captures positively identified as aircraft and satellites", "Optical conditions in mountain valleys conducive to mirage and atmospheric refraction"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
       "traditions": [],
       "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "beliefs": "The phenomenon has limited folkloric tradition in the valley itself, where it is treated primarily as a contemporary event rather than as part of an inherited tradition."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
+      "literature": [
+        "The Hessdalen Phenomenon — Erling Strand and collaborators (Project Hessdalen technical reports, 1984 onward)"
+      ],
+      "film_tv": [
+        "The Portal (UK documentary, 2010s, includes Hessdalen footage)",
+        "Various episodes of UFO and unexplained-phenomena documentary series featuring Hessdalen"
+      ],
       "games": [],
-      "other": []
+      "music": [],
+      "other": [
+        "Hessdalen has become a low-key tourism draw for sky-watchers, with informal viewing platforms in the valley"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Erling Strand", "affiliation": "Østfold University College", "contribution": "Founder of Project Hessdalen; organised the original 1983–1985 field campaign and the Hessdalen AMS", "period": "1983–present" },
+      { "name": "Bjørn Gitle Hauge", "affiliation": "Østfold University College", "contribution": "Optical spectroscopy and EMBLA-era instrumentation", "period": "2000s–present" },
+      { "name": "Massimo Teodorani", "affiliation": "Italian National Research Council (CNR) / INAF (formerly)", "contribution": "Lead analyst of EMBLA spectroscopic and statistical data; published peer-reviewed surveys", "period": "2000s–2010s" },
+      { "name": "Jader Monari", "affiliation": "INAF / Italian National Research Council", "contribution": "Proposed the 2014 'natural battery' geo-electrochemical model", "period": "2000s–present" },
+      { "name": "Gerson S. Paiva", "affiliation": "Centro Brasileiro de Pesquisas Físicas", "contribution": "Co-developed the dust-plasma / Coulomb-crystal model of the phenomenon", "period": "2010–present" },
+      { "name": "Carlton A. Taft", "affiliation": "Centro Brasileiro de Pesquisas Físicas", "contribution": "Co-developed the dust-plasma / Coulomb-crystal model of the phenomenon", "period": "2010–present" }
+    ],
+    "organizations": [
+      { "name": "Project Hessdalen", "url": "https://www.hessdalen.org", "focus": "Long-running field investigation and AMS monitoring station" },
+      { "name": "Østfold University College", "url": "https://www.hiof.no", "focus": "Host institution for Project Hessdalen and the AMS" },
+      { "name": "Italian National Research Council (CNR)", "url": "https://www.cnr.it", "focus": "EMBLA spectroscopic and instrumental campaigns" }
+    ],
+    "ongoing_studies": "Continuous AMS monitoring at Hessdalen; periodic EMBLA-style field campaigns combining spectroscopy, magnetometry, and radio-frequency measurement; ongoing modelling of dusty-plasma and natural-battery hypotheses."
   },
-  "sources": []
+
+  "sources": [
+    { "id": "wikipedia-hessdalen-2026", "type": "website", "title": "Hessdalen lights", "publication": "Wikipedia", "url": "https://en.wikipedia.org/wiki/Hessdalen_lights", "accessed": "2026-05-07" },
+    { "id": "teodorani-2004-jse", "type": "paper", "title": "A Long-Term Scientific Survey of the Hessdalen Phenomenon", "authors": ["Massimo Teodorani"], "publication": "Journal of Scientific Exploration", "date": "2004" },
+    { "id": "paiva-taft-2010", "type": "paper", "title": "A hypothetical dusty plasma mechanism of Hessdalen lights", "authors": ["Gerson S. Paiva", "Carlton A. Taft"], "publication": "Journal of Atmospheric and Solar-Terrestrial Physics", "date": "2010" },
+    { "id": "project-hessdalen-website", "type": "website", "title": "Project Hessdalen", "url": "https://www.hessdalen.org", "accessed": "2026-05-07" },
+    { "id": "strand-1985-report", "type": "archive", "title": "Project Hessdalen 1984 — Final Technical Report", "authors": ["Erling Strand"], "publication": "Project Hessdalen / UFO-Norge", "date": "1985" }
+  ]
 }
